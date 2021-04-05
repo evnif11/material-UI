@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import Main from './components/Main';
 import './App.css';
+import BoxTutorial from './components/Box';
+import StyleTutorial from './components/StyleTutorial';
+import StyleTutorial2 from './components/StyleTutorial2';
+import GridTutorial1 from './components/GridTutorial1';
+import GridTutorial2 from './components/GridTutorial2';
+import TabTutorial from './components/TabTutorial';
+import IconTutorial from './components/IconTutorial';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <IconTutorial/>
+      <Main />
+      <BoxTutorial />
+      <StyleTutorial />
+      <StyleTutorial2 />
+      <GridTutorial1/>
+      <GridTutorial2/>
+      <TabTutorial/>
+
     </div>
   );
 }
